@@ -1,0 +1,109 @@
+/*css styling for h1 elements*/
+
+header {
+    background-image: url(.../Images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+#content {
+    
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+nav ul li:hover{
+    background-color: darkgray;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    height: 200px;
+    background-color: black;
+}
+
+aside ul li{
+    list-style-type: none;
+    color: black;
+}
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.col_detail{
+    float: left;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;    
+    text-align: center;
+    text-decoration: none;
+}
+.image_class{
+    float: left;
+    width: 20%;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    height: 200px;
+    background-color: black;
+}
+footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+footer ul li{
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 5px; 
+    border: 2px solid red; 
+  
+    border-radius: 10px
+}
+.frontimage{
+    width: 100%;
+}
